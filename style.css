@@ -1,4 +1,3 @@
-
 body,
 h1,
 h2,
@@ -207,7 +206,6 @@ section {
 }
 
 .location-sections {
-
   width: 100%;
 }
 
@@ -434,7 +432,6 @@ a {
   }
 }
 
-
 @media (max-width: 1450px) {
   .aboutDesc {
     margin: 0 20px;
@@ -448,5 +445,33 @@ a {
   }
   .locrow {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 630px) {
+  .contact-container form {
+    width: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .contact-container form {
+    width: 300px;
+  }
+}
+@media (max-width: 450px) {
+  .myLocs {
+    padding: 0;
+  }
+  .loccol {
+    width: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .flex-item {
+    margin: 50px 0;
+  }
+  .contact-container form input,
+  .contact-container form textarea {
+    width: 85%;
   }
 }
